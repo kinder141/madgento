@@ -7,13 +7,13 @@
     </modules>
     <frontend>
         <routers>
-            <wshop>
+            <cp_wshop>
                 <use>standard</use>
                 <args>
                     <module>CP_WShop</module>
-                    <frontName>wshop</frontName>
+                        <frontName>wshop</frontName>
                 </args>
-            </wshop>
+            </cp_wshop>
         </routers>
     </frontend>
     <global>
