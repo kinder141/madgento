@@ -5,18 +5,14 @@
             <version>0.1.0</version>
         </CP_WShop>
     </modules>
-    <frontend>
-        <routers>
-            <cp_wshop>
-                <use>standard</use>
-                <args>
-                    <module>CP_WShop</module>
-                        <frontName>wshop</frontName>
-                </args>
-            </cp_wshop>
-        </routers>
-    </frontend>
+
+
     <global>
+        <helpers>
+            <wshop>
+                <class>CP_WShop_Helper</class>
+            </wshop>
+        </helpers>
         <resources>
             <CP_WShop_setup>
                 <setup>
@@ -37,6 +33,7 @@
         </CP_WShop_read>
             </CP_WShop_setup>
         </resources>
+
     </global>
 
 </config>
