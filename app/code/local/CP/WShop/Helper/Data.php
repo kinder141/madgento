@@ -1,6 +1,7 @@
 <?php
 
-class WShop_Helper_Data extends Mage_Core_Helper_Abstract
+class CP_WShop_Helper_Data extends Mage_Core_Helper_Abstract
 {
+
 
 }

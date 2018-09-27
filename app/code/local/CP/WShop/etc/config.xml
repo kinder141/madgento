@@ -9,9 +9,9 @@
 
     <global>
         <helpers>
-            <wshop>
+            <cp_wshop>
                 <class>CP_WShop_Helper</class>
-            </wshop>
+            </cp_wshop>
         </helpers>
         <resources>
             <CP_WShop_setup>
