@@ -2,7 +2,41 @@
 <config>
     <modules>
         <CP_WShop>
-            <version>0.1</version>
+            <version>0.1.0</version>
         </CP_WShop>
     </modules>
+    <frontend>
+        <routers>
+            <wshop>
+                <use>standard</use>
+                <args>
+                    <module>CP_WShop</module>
+                    <frontName>wshop</frontName>
+                </args>
+            </wshop>
+        </routers>
+    </frontend>
+    <global>
+        <resources>
+            <CP_WShop_setup>
+                <setup>
+                    <module>CP_WShop</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+                <CP_WShop_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+                </CP_WShop_write>
+            <CP_WShop_read>
+            <connection>
+                <use>core_read</use>
+            </connection>
+        </CP_WShop_read>
+            </CP_WShop_setup>
+        </resources>
+    </global>
+
 </config>
