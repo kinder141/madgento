@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <CP_WShop>
+            <active>true</active>
+            <codePool>local</codePool>
+        </CP_WShop>
+    </modules>
+</config>
