@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <cp translate="label" module="cp_wshop">
+            <label>WSHOP</label>
+            <sort_order>2</sort_order>
+        </cp>
+    </tabs>
+</config>
